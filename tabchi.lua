@@ -218,7 +218,8 @@ function process(msg)
         else
           local text = [[
 *Normal stats
-SHADOBAKER :*
+SHADOBAKER
+dec by @shadobakerf:*
 کاربار ها : ]] .. pvs .. [[
 
 گروه های معمولی : ]] .. gps .. [[
