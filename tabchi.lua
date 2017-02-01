@@ -217,16 +217,14 @@ function process(msg)
           }, dl_cb, nil)
         else
           local text = [[
-*Normal stats
-SHADOBAKER
-dec by @shadobakerf:*
-کاربار ها : ]] .. pvs .. [[
+*پنل مدیریتی ربات :*
+کاربران: ]] .. pvs .. [[
 
-گروه های معمولی : ]] .. gps .. [[
+گروه ها : ]] .. gps .. [[
 
 سوپر گروه ها : ]] .. sgps .. [[
 
-لینک های جوین شده : ]] .. links
+لینک های ذخیره شده : ]] .. links
           tdcli.sendMessage(msg.chat_id_, 0, 1, text, 1, "md")
         end
       end
@@ -588,3 +586,4 @@ function update(data, tabchi_id)
     }, dl_cb, nil)
   end
 end
+--dic by @shadobakerf
