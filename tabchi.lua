@@ -586,4 +586,4 @@ function update(data, tabchi_id)
     }, dl_cb, nil)
   end
 end
---dic by @shadobakerf
+--dec by @shadobakerf
